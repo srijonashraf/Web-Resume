@@ -248,3 +248,12 @@ ul{
 #skill_progress-py{
 width: 40%;
 }
+
+#dwn-btn{
+  background-color: #0089bb!important;
+  transition: .5s;
+}
+#dwn-btn:hover{
+  background-color: #293D3E!important;
+  transition: .5s;
+}
