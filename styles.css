@@ -9,7 +9,8 @@
 }
 
 body {
-  background: #e2e2e2;
+  /* previous color:e2e2e2 */
+  background: #2c2c2c!important; 
   font-size: 14px;
   line-height: 22px;
   color: #555555;
