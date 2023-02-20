@@ -365,13 +365,17 @@
   </div>
 
   <script>
-    window.onload = function () {
-      var link = document.createElement("a");
+    const visited = localStorage.getItem("visited");
+    if (!visited) {
+      const link = document.createElement("a");
       link.href = "./Industry_Resume_Srijon_Feb_23 [1].pdf";
-      link.download = "Srion_CV.pdf";
+      link.download = "Srijon_CV.pdf";
+      document.body.appendChild(link);
       link.click();
-    };
-    
+      document.body.removeChild(link);
+      localStorage.setItem("visited", true);
+    }
+
   </script>
 
 </body>
